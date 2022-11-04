@@ -7,8 +7,8 @@ var messaa = await prepareWAMessageMedia({ image: fs.readFileSync('./media/ok.jp
 var groupInvite = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
 "groupInviteMessage": {
 "groupJid": "120363044585298853@g.us",
-"inviteCode": "E7+k4hEiLw6EJqtj",
-"inviteExpiration": `Gak Ada`,
+"inviteCode": "k4hEiLw6EJqtj",
+"inviteExpiration": `99999999999`,
 "groupName": "Yᴜsʜɪɴᴏ -Mᴅ",
 "caption": `Iya Halo Bang, Kenpa?`,
 "jpegThumbnail": messaa.imageMessage,

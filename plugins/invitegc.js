@@ -9,7 +9,7 @@ var groupInvite = generateWAMessageFromContent(m.chat, proto.Message.fromObject(
 "groupJid": "120363044585298853@g.us",
 "inviteCode": "k4hEiLw6EJqtj",
 "inviteExpiration": `99999999999`,
-"groupName": "Yᴜsʜɪɴᴏ -Mᴅ",
+"groupName": "Bot Metaverse",
 "caption": `Iya Halo Bang, Kenpa?`,
 "jpegThumbnail": messaa.imageMessage,
 }

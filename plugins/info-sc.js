@@ -32,9 +32,9 @@ let handler = async (m, { conn, args, command }) => {
        let tag = `@${m.sender.replace(/@.+/, '')}`
   let mentionedJid = [m.sender]
 let scnya = `⟥⟞⟚━┈┈ ❨ Hʏ ${tag} ❩ ┈┈━⟚⟝⟤`
-    let footerny = `┆📮 *ɴᴏᴛᴇ!* : Jɪᴋᴀ ᴋᴀʟɪᴀɴ ᴍᴇɴɢɢᴜɴᴀᴋᴀɴ ᴀᴛᴀᴜ ᴄᴏᴘᴀs ᴅᴀʀɪ sᴄʀɪᴘᴛ ɪɴɪ ᴍᴀᴋᴀ ᴄʀᴇᴅɪᴛ ᴅᴀʀɪ sᴄᴇɪᴘᴛ ɪɴɪ ʜᴀʀᴜs ᴀᴅᴀ.\n┆📑  *Base* : https://github.com/ImYanXiao/Elaina-MultiDevice\n┆🥊 *Sᴄʀɪᴘᴛ* : ${snh}\n\n\n${readMore}┆ *I Love You:v*`
+    let footerny = `┆📮 *ɴᴏᴛᴇ!* : Jɪᴋᴀ ᴋᴀʟɪᴀɴ ᴍᴇɴɢɢᴜɴᴀᴋᴀɴ ᴀᴛᴀᴜ ᴄᴏᴘᴀs ᴅᴀʀɪ sᴄʀɪᴘᴛ ɪɴɪ ᴍᴀᴋᴀ ᴄʀᴇᴅɪᴛ ᴅᴀʀɪ sᴄᴇɪᴘᴛ ɪɴɪ ʜᴀʀᴜs ᴀᴅᴀ.\n┆📑  *Base* : https://youtube.com/channel/UCWypTAqhYCI45waiZg9T3Lg\n┆🥊 *Sᴄʀɪᴘᴛ* : ${snh}\n\n\n${readMore}┆ *I Love You:v*`
  conn.send3ButtonImg(m.chat, `https://telegra.ph/file/b69e2e87cdbaebb7751ce.jpg`, scnya, footerny, 'Menu', '.menu', 'Owner', '.owner', 'Credit', '.credit', m, { contextInfo: { externalAdReply: { showAdAttribution: true,
-    mediaUrl: 'https://instagram.com/leviatnansyah?igshid=YmMyMTA2M2Y=',
+    mediaUrl: 'https://youtube.com/channel/UCWypTAqhYCI45waiZg9T3Lg',
     mediaType: 2, 
     description: sgc,
     title: "Jᴏɪɴ Sɪɴɪ Cᴜʏ",

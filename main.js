@@ -125,7 +125,7 @@ async function connectionUpdate(update) {
     global.timestamp.connect = new Date
   }
   if (global.db.data == null) loadDatabase()
-   if (update.receivedPendingNotifications) conn.sendButtonDoc(`6285172446692@s.whatsapp.net`, 
+   if (update.receivedPendingNotifications) conn.sendButtonDoc(`628979174144@s.whatsapp.net`, 
 `┏═══════════════════
 ┃╴◈ Bᴏᴛ Tᴇʟᴀʜ Tᴇʀsᴀᴍʙᴜɴɢ
 ┣═══════════════════
@@ -171,10 +171,10 @@ let welc = `
 │☘︎ @subject
 ┣━━━━━━━━┅┅┅
 │( 👋 Hallo @user
-├[ *ɪɴᴛʀᴏ* ]—
-│ *ɴᴀᴍᴀ:* 
-│ *ᴜᴍᴜʀ:* 
-│ *ɢᴇɴᴅᴇʀ:*
+├[ *RULES* ]—
+│ *Jangan Show Rate:* 
+│ *Drama/menggoreng dilarang:* 
+│ *Ragu Transaksi pakai lah Mm:*
 ┗–––━━┅┅┅
 
 –––┅┅ *ᴅᴇsᴄʀɪᴘᴛɪᴏɴ* ┅┅––––––
